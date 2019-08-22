@@ -1,10 +1,10 @@
 {
-  "name": "toastr2",
+  "name": "toastr3",
   "main": "dist/toastr.umd.js",
-  "module": "dist/toastr.es5.js",
-  "typings": "dist/types/src/toastr.d.ts",
-  "style": "dist/toastr.min.css",
-  "version": "3.0.0-alpha.8",
+  "module": "dist/toastr3.es5.js",
+  "typings": "dist/types/src/toastr3.d.ts",
+  "style": "dist/toastr3.min.css",
+  "version": "3.0.0-alpha.9",
   "description": "ToastrJS is a JavaScript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended.",
   "homepage": "http://www.toastrjs.com",
   "keywords": [
@@ -66,7 +66,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/JPeer264/toastr.git"
+    "url": "git://github.com/asheshvashi/toastr.git"
   },
   "bugs": "http://stackoverflow.com/questions/tagged/toastr",
   "licenses": [
