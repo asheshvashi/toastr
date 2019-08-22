@@ -1,14 +1,14 @@
 # toastr
 
-> Note: this is a fork of [toastr](https://github.com/CodeSeven/toastr). This library is made to use it without jQuery and with Typescript
+> Note: this is a fork of [toastr](https://github.com/asheshvashi/toastr). This library is made to use it without jQuery and with Typescript
 
 **toastr** is a Javascript library for non-blocking notifications The goal is to create a simple core library that can be customized and extended.
 
-[![Build Status](https://travis-ci.org/CodeSeven/toastr.svg)](https://travis-ci.org/CodeSeven/toastr)
+[![Build Status](https://travis-ci.org/asheshvashi/toastr.svg)](https://travis-ci.org/asheshvashi/toastr)
 Browser testing provided by BrowserStack.
 
 ## Demo
-- Demo can be found at http://codeseven.github.io/toastr/demo.html
+- Demo can be found at http://asheshvashi.github.io/toastr/demo.html
 - [Demo using FontAwesome icons with toastr](http://plnkr.co/edit/6W9URNyyp2ItO4aUWzBB?p=preview)
 
 ## CDNs
