@@ -1617,7 +1617,7 @@ var isTypedArray = nodeIsTypedArray ? _baseUnary(nodeIsTypedArray) : _baseIsType
 var isTypedArray_1 = isTypedArray;
 
 /**
- * Gets the value at `key`, unless `key` is "__proto__".
+ * Gets the value at `key`, unless `key` is "__proto__" or "constructor".
  *
  * @private
  * @param {Object} object The object to query.
@@ -1625,6 +1625,10 @@ var isTypedArray_1 = isTypedArray;
  * @returns {*} Returns the property value.
  */
 function safeGet(object, key) {
+  if (key === 'constructor' && typeof object[key] === 'function') {
+    return;
+  }
+
   if (key == '__proto__') {
     return;
   }
@@ -1993,8 +1997,8 @@ function baseMerge(object, source, srcIndex, customizer, stack) {
     return;
   }
   _baseFor(source, function(srcValue, key) {
+    stack || (stack = new _Stack);
     if (isObject_1(srcValue)) {
-      stack || (stack = new _Stack);
       _baseMergeDeep(object, source, key, srcIndex, baseMerge, customizer, stack);
     }
     else {
@@ -2337,7 +2341,7 @@ var ProgressBar = /** @class */ (function () {
     return ProgressBar;
 }());
 
-var version = "3.0.0-alpha.7";
+var version = "3.0.0-alpha.9";
 
 var Toastr = /** @class */ (function () {
     function Toastr(options) {
@@ -2777,4 +2781,4 @@ var Toastr = /** @class */ (function () {
 }());
 
 export default Toastr;
-//# sourceMappingURL=toastr.es5.js.map
+//# sourceMappingURL=toastr3.es5.js.map

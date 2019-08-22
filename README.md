@@ -26,14 +26,14 @@ Toastr is hosted at cdnjs and jsdelivr
 
 ## Install
 
-#### [npm](https://www.npmjs.com/package/toastr2)
+#### [npm](https://www.npmjs.com/package/toastr3)
 ```
-npm install toastr2
+npm install toastr3
 ```
 
-#### [yarn](https://yarnpkg.com/en/package/toastr2)
+#### [yarn](https://yarnpkg.com/en/package/toastr3)
 ```
-yarn add toastr2
+yarn add toastr3
 ```
 
 ## Wiki and Change Log
@@ -54,11 +54,11 @@ The following animations options have been deprecated and should be replaced:
 ### 2 Easy Steps
 For other API calls, see the [demo](http://codeseven.github.io/toastr/demo.html).
 
-1. Import toastr2 (js and css)
+1. Import toastr3 (js and css)
 	```js
-	import Toastr from 'toastr2';
+	import Toastr from 'toastr3';
 
-	import 'toastr2/dist/toastr.min.css;
+	import 'toastr3/dist/toastr3.min.css;
 
 	const toastr = new Toastr();
 	```

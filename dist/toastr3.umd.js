@@ -1623,7 +1623,7 @@
   var isTypedArray_1 = isTypedArray;
 
   /**
-   * Gets the value at `key`, unless `key` is "__proto__".
+   * Gets the value at `key`, unless `key` is "__proto__" or "constructor".
    *
    * @private
    * @param {Object} object The object to query.
@@ -1631,6 +1631,10 @@
    * @returns {*} Returns the property value.
    */
   function safeGet(object, key) {
+    if (key === 'constructor' && typeof object[key] === 'function') {
+      return;
+    }
+
     if (key == '__proto__') {
       return;
     }
@@ -1999,8 +2003,8 @@
       return;
     }
     _baseFor(source, function(srcValue, key) {
+      stack || (stack = new _Stack);
       if (isObject_1(srcValue)) {
-        stack || (stack = new _Stack);
         _baseMergeDeep(object, source, key, srcIndex, baseMerge, customizer, stack);
       }
       else {
@@ -2343,7 +2347,7 @@
       return ProgressBar;
   }());
 
-  var version = "3.0.0-alpha.7";
+  var version = "3.0.0-alpha.9";
 
   var Toastr = /** @class */ (function () {
       function Toastr(options) {
@@ -2785,4 +2789,4 @@
   return Toastr;
 
 }));
-//# sourceMappingURL=toastr.umd.js.map
+//# sourceMappingURL=toastr3.umd.js.map
