@@ -1,6 +1,6 @@
-# toastr
+# toastr3
 
-> Note: this is a fork of [toastr](https://github.com/asheshvashi/toastr). This library is made to use it without jQuery and with Typescript
+> Note: this is a fork of [toastr](https://github.com/asheshvashiJPeer264/toastr). This library is made to use it without jQuery and with Typescript
 
 **toastr** is a Javascript library for non-blocking notifications The goal is to create a simple core library that can be customized and extended.
 
@@ -8,36 +8,36 @@
 Browser testing provided by BrowserStack.
 
 ## Demo
-- Demo can be found at http://asheshvashi.github.io/toastr/demo.html
-- [Demo using FontAwesome icons with toastr](http://plnkr.co/edit/6W9URNyyp2ItO4aUWzBB?p=preview)
+# - Demo can be found at http://asheshvashi.github.io/toastr/demo.html
+# - [Demo using FontAwesome icons with toastr](http://plnkr.co/edit/6W9URNyyp2ItO4aUWzBB?p=preview)
 
 ## CDNs
-[![cdnjs](https://img.shields.io/cdnjs/v/toastr.js.svg)](https://cdnjs.com/libraries/toastr.js)
-[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/toastr/badge)](https://www.jsdelivr.com/package/npm/toastr)
+# [![cdnjs](https://img.shields.io/cdnjs/v/toastr.js.svg)](https://cdnjs.com/libraries/toastr.js)
+# [![jsdelivr](https://data.jsdelivr.com/v1/package/npm/toastr/badge)](https://www.jsdelivr.com/package/npm/toastr)
 
-Toastr is hosted at cdnjs and jsdelivr
+# Toastr is hosted at cdnjs and jsdelivr
 
 #### Debug
-- [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css](//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css)
+# - [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css](//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css)
 
 #### Minified
-- [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js](//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js)
-- [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css](//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css)
+# - [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js] (//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js)
+# - [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css](//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css)
 
 ## Install
 
 #### [npm](https://www.npmjs.com/package/toastr3)
-```
-npm install toastr3
-```
+# ```
+# npm install toastr3
+# ```
 
 #### [yarn](https://yarnpkg.com/en/package/toastr3)
-```
-yarn add toastr3
-```
+# ```
+# yarn add toastr3
+# ```
 
 ## Wiki and Change Log
-[Wiki including Change Log](https://github.com/CodeSeven/toastr/wiki)
+# [Wiki including Change Log](https://github.com/CodeSeven/toastr/wiki)
 
 ## Breaking Changes
 
