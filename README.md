@@ -7,40 +7,6 @@
 [![Build Status](https://travis-ci.org/asheshvashi/toastr.svg)](https://travis-ci.org/asheshvashi/toastr)
 Browser testing provided by BrowserStack.
 
-## Demo
-# - Demo can be found at http://asheshvashi.github.io/toastr/demo.html
-# - [Demo using FontAwesome icons with toastr](http://plnkr.co/edit/6W9URNyyp2ItO4aUWzBB?p=preview)
-
-## CDNs
-# [![cdnjs](https://img.shields.io/cdnjs/v/toastr.js.svg)](https://cdnjs.com/libraries/toastr.js)
-# [![jsdelivr](https://data.jsdelivr.com/v1/package/npm/toastr/badge)](https://www.jsdelivr.com/package/npm/toastr)
-
-# Toastr is hosted at cdnjs and jsdelivr
-
-#### Debug
-# - [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css](//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css)
-
-#### Minified
-# - [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js] (//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js)
-# - [//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css](//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css)
-
-## Install
-
-#### [npm](https://www.npmjs.com/package/toastr3)
-# ```
-# npm install toastr3
-# ```
-
-#### [yarn](https://yarnpkg.com/en/package/toastr3)
-# ```
-# yarn add toastr3
-# ```
-
-## Wiki and Change Log
-# [Wiki including Change Log](https://github.com/CodeSeven/toastr/wiki)
-
-## Breaking Changes
-
 #### Animation Changes
 The following animations options have been deprecated and should be replaced:
 
